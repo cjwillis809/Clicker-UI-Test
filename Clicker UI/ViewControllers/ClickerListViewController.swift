@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  Clicker UI
 //
 //  Created by CJ Willis on 5/22/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ClickerListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4B29174C2478766D00FFA983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29174B2478766D00FFA983 /* AppDelegate.swift */; };
-		4B29174E2478766D00FFA983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29174D2478766D00FFA983 /* SceneDelegate.swift */; };
-		4B2917502478766D00FFA983 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29174F2478766D00FFA983 /* FirstViewController.swift */; };
-		4B2917522478766D00FFA983 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917512478766D00FFA983 /* SecondViewController.swift */; };
+		4B2917502478766D00FFA983 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29174F2478766D00FFA983 /* ClickerViewController.swift */; };
+		4B2917522478766D00FFA983 /* ClickerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917512478766D00FFA983 /* ClickerListViewController.swift */; };
 		4B2917552478766D00FFA983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2917532478766D00FFA983 /* Main.storyboard */; };
 		4B2917582478766D00FFA983 /* Clicker_UI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917562478766D00FFA983 /* Clicker_UI.xcdatamodeld */; };
 		4B29175A2478766F00FFA983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2917592478766F00FFA983 /* Assets.xcassets */; };
 		4B29175D2478766F00FFA983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B29175B2478766F00FFA983 /* LaunchScreen.storyboard */; };
-		4B2917682478766F00FFA983 /* Clicker_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917672478766F00FFA983 /* Clicker_UITests.swift */; };
+		4B2917682478766F00FFA983 /* ClickerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917672478766F00FFA983 /* ClickerViewModelTests.swift */; };
 		4B2917732478766F00FFA983 /* Clicker_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917722478766F00FFA983 /* Clicker_UIUITests.swift */; };
+		4B342E8724787E2C00697898 /* Clicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B342E8624787E2C00697898 /* Clicker.swift */; };
+		4B342E8A24787FBC00697898 /* ClickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B342E8924787FBC00697898 /* ClickerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,20 +40,21 @@
 /* Begin PBXFileReference section */
 		4B2917482478766D00FFA983 /* Clicker UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clicker UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B29174B2478766D00FFA983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B29174D2478766D00FFA983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B29174F2478766D00FFA983 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4B2917512478766D00FFA983 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4B29174F2478766D00FFA983 /* ClickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
+		4B2917512478766D00FFA983 /* ClickerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerListViewController.swift; sourceTree = "<group>"; };
 		4B2917542478766D00FFA983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B2917572478766D00FFA983 /* Clicker_UI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clicker_UI.xcdatamodel; sourceTree = "<group>"; };
 		4B2917592478766F00FFA983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B29175C2478766F00FFA983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B29175E2478766F00FFA983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B2917632478766F00FFA983 /* Clicker UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clicker UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B2917672478766F00FFA983 /* Clicker_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clicker_UITests.swift; sourceTree = "<group>"; };
+		4B2917672478766F00FFA983 /* ClickerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewModelTests.swift; sourceTree = "<group>"; };
 		4B2917692478766F00FFA983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B29176E2478766F00FFA983 /* Clicker UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clicker UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2917722478766F00FFA983 /* Clicker_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clicker_UIUITests.swift; sourceTree = "<group>"; };
 		4B2917742478766F00FFA983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B342E8624787E2C00697898 /* Clicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clicker.swift; sourceTree = "<group>"; };
+		4B342E8924787FBC00697898 /* ClickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +105,10 @@
 		4B29174A2478766D00FFA983 /* Clicker UI */ = {
 			isa = PBXGroup;
 			children = (
+				4B716F292478A2B500F5F130 /* ViewControllers */,
+				4B342E8824787FAA00697898 /* ViewModels */,
+				4B342E8524787E0F00697898 /* Models */,
 				4B29174B2478766D00FFA983 /* AppDelegate.swift */,
-				4B29174D2478766D00FFA983 /* SceneDelegate.swift */,
-				4B29174F2478766D00FFA983 /* FirstViewController.swift */,
-				4B2917512478766D00FFA983 /* SecondViewController.swift */,
 				4B2917532478766D00FFA983 /* Main.storyboard */,
 				4B2917592478766F00FFA983 /* Assets.xcassets */,
 				4B29175B2478766F00FFA983 /* LaunchScreen.storyboard */,
@@ -119,7 +121,7 @@
 		4B2917662478766F00FFA983 /* Clicker UITests */ = {
 			isa = PBXGroup;
 			children = (
-				4B2917672478766F00FFA983 /* Clicker_UITests.swift */,
+				4B2917672478766F00FFA983 /* ClickerViewModelTests.swift */,
 				4B2917692478766F00FFA983 /* Info.plist */,
 			);
 			path = "Clicker UITests";
@@ -132,6 +134,31 @@
 				4B2917742478766F00FFA983 /* Info.plist */,
 			);
 			path = "Clicker UIUITests";
+			sourceTree = "<group>";
+		};
+		4B342E8524787E0F00697898 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B342E8624787E2C00697898 /* Clicker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B342E8824787FAA00697898 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4B342E8924787FBC00697898 /* ClickerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4B716F292478A2B500F5F130 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B29174F2478766D00FFA983 /* ClickerViewController.swift */,
+				4B2917512478766D00FFA983 /* ClickerListViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B2917582478766D00FFA983 /* Clicker_UI.xcdatamodeld in Sources */,
-				4B2917522478766D00FFA983 /* SecondViewController.swift in Sources */,
-				4B2917502478766D00FFA983 /* FirstViewController.swift in Sources */,
+				4B2917522478766D00FFA983 /* ClickerListViewController.swift in Sources */,
+				4B2917502478766D00FFA983 /* ClickerViewController.swift in Sources */,
 				4B29174C2478766D00FFA983 /* AppDelegate.swift in Sources */,
-				4B29174E2478766D00FFA983 /* SceneDelegate.swift in Sources */,
+				4B342E8A24787FBC00697898 /* ClickerViewModel.swift in Sources */,
+				4B342E8724787E2C00697898 /* Clicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2917682478766F00FFA983 /* Clicker_UITests.swift in Sources */,
+				4B2917682478766F00FFA983 /* ClickerViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
