@@ -15,9 +15,10 @@
 		4B29175A2478766F00FFA983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2917592478766F00FFA983 /* Assets.xcassets */; };
 		4B29175D2478766F00FFA983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B29175B2478766F00FFA983 /* LaunchScreen.storyboard */; };
 		4B2917682478766F00FFA983 /* ClickerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917672478766F00FFA983 /* ClickerViewModelTests.swift */; };
-		4B2917732478766F00FFA983 /* Clicker_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917722478766F00FFA983 /* Clicker_UIUITests.swift */; };
 		4B342E8724787E2C00697898 /* Clicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B342E8624787E2C00697898 /* Clicker.swift */; };
 		4B342E8A24787FBC00697898 /* ClickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B342E8924787FBC00697898 /* ClickerViewModel.swift */; };
+		4B7D42E12479A07D007A19B4 /* ClickerListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D42E02479A07D007A19B4 /* ClickerListUITests.swift */; };
+		4BAE52072479B4F50064A138 /* ClickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2917722478766F00FFA983 /* ClickerViewUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +52,11 @@
 		4B2917672478766F00FFA983 /* ClickerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewModelTests.swift; sourceTree = "<group>"; };
 		4B2917692478766F00FFA983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B29176E2478766F00FFA983 /* Clicker UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clicker UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B2917722478766F00FFA983 /* Clicker_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clicker_UIUITests.swift; sourceTree = "<group>"; };
+		4B2917722478766F00FFA983 /* ClickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewUITests.swift; sourceTree = "<group>"; };
 		4B2917742478766F00FFA983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B342E8624787E2C00697898 /* Clicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clicker.swift; sourceTree = "<group>"; };
 		4B342E8924787FBC00697898 /* ClickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewModel.swift; sourceTree = "<group>"; };
+		4B7D42E02479A07D007A19B4 /* ClickerListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerListUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +132,9 @@
 		4B2917712478766F00FFA983 /* Clicker UIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4B2917722478766F00FFA983 /* Clicker_UIUITests.swift */,
+				4B2917722478766F00FFA983 /* ClickerViewUITests.swift */,
 				4B2917742478766F00FFA983 /* Info.plist */,
+				4B7D42E02479A07D007A19B4 /* ClickerListUITests.swift */,
 			);
 			path = "Clicker UIUITests";
 			sourceTree = "<group>";
@@ -313,7 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2917732478766F00FFA983 /* Clicker_UIUITests.swift in Sources */,
+				4BAE52072479B4F50064A138 /* ClickerViewUITests.swift in Sources */,
+				4B7D42E12479A07D007A19B4 /* ClickerListUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
